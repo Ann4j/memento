@@ -5,7 +5,6 @@ import { Telegraf } from 'telegraf';
  * мы можем хранить его в глобальной переменной (хак для Serverless).
  */
 
-await bot.telegram.setWebhook('https://memento-neon.vercel.app/api/bot');
 
 if (!bot) {
   // Инициализация бота
