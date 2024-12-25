@@ -1,5 +1,4 @@
 import { Telegraf } from 'telegraf';
-import { NextApiRequest, NextApiResponse } from 'next';
 
 /**
  * Чтобы бот не инициализировался заново при каждом запросе,
