@@ -8,7 +8,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 if (!bot) {
   // Инициализация бота
-  bot = new Telegraf(process.env.BOT_TOKEN as string);
+  bot = new Telegraf(process.env.BOT_TOKE);
 
   // Простейшие обработчики
   bot.start((ctx) => ctx.reply('Бот запущен через webhook!'));
